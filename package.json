@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/Undisputed06/team-profile-generator/issues"
   },
-  "homepage": "https://github.com/Undisputed06/team-profile-generator#readme"
+  "homepage": "https://github.com/Undisputed06/team-profile-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
 }
