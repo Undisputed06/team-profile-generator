@@ -28,6 +28,13 @@ test('get engineer email', () => {
     expect(engineer.getEmail()).toBe('gary.email.com')
 })
 
+test('get engineer github', () => {
+    const intern = new Engineer("Gary", 10, "gary.email.com", "Undisputed06")
+
+    expect(intern.getGithub()).toEqual(expect.any(String))
+})
+
+
 test('get engineer role', () =>{
     const engineer = new Engineer("Gary", 10, "gary.email.com", "Undisputed06")
 

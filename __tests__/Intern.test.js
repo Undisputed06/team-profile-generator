@@ -1,5 +1,4 @@
 const { expect } = require('expect')
-const { test } = require('picomatch')
 const Intern = require('../lib/Intern')
 
 test('create intern object', () =>{
@@ -8,7 +7,9 @@ test('create intern object', () =>{
     expect(intern.name).toBe('Gary')
     expect(intern.id).toEqual(expect.any(Number))
     expect(intern.email).toBe('gary.email.com')
+    expect(intern.github).toEqual(expect.any(String))
     expect(intern.school).toEqual(expect.any(String))
+    
 })
 
 test('get intern name', () => {
@@ -28,6 +29,13 @@ test('get intern email', () => {
 
     expect(intern.getEmail()).toBe('gary.email.com')
 })
+
+test('get intern github', () => {
+    const intern = new Intern("Gary", 10, "gary.email.com", "Undisputed06","Savannah State")
+
+    expect(intern.getGithub()).toEqual(expect.any(String))
+})
+
 
 test('get intern school', () => {
     const intern = new Intern("Gary", 10, "gary.email.com", "Undisputed06","Savannah State")
