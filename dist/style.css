@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+  }
+
+  header{
+      padding: 20px;
+      display: flex;
+      justify-content:center;
+      background-color: rgb(197, 24, 24);
+      color:white;
+  }
+
+  
+  main {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 15px;
+      margin: 10px;
+  }
+
+  .container{
+      width: 50%;
+  }
+
+ 
+
+  .card {
+      padding: 20px;
+      margin:20px;
+    
+  }
