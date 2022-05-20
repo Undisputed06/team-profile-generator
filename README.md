@@ -21,8 +21,8 @@
 
  
   ## Screenshot
-
-
+    
+  ![Team Summary](https://user-images.githubusercontent.com/52983305/169432063-337e8a74-269e-4737-a69f-72eca04bc4bf.png)
 
 
   
